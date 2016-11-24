@@ -43,11 +43,12 @@ Bicycle.php
 Usage
 -----
 
-.. code::  php
+.. code-block::  php
+   :linenos:
 
-   $factory = new SimpleFactory();
-   $bicycle = $factory->createVehicle('bicycle');
-   $bicycle->driveTo('Paris');
+    $factory = new SimpleFactory();
+    $bicycle = $factory->createBicycle();
+    $bicycle->driveTo('Paris');
 
 Test
 ----
